@@ -1,0 +1,102 @@
+section{
+
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-logo img{
+
+    width: 300px;
+}
+
+.search-box-container{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 30px 30px 30px 30px;
+    width: 600px;
+    height: 50px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    
+}
+.search-box-container .img-search-box{
+
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-top: 2px;
+}
+
+.search-box-container .img-search-box:hover{
+
+    cursor: pointer;
+}
+
+.search-box-container .form-container .search-box{
+
+    border: none;
+    outline: none;
+    width: 500px;
+    height: 30px;
+    font-size: 16px;
+    
+}
+
+.search-box-container .form-container .search-box:active{
+
+    border: none;
+}
+
+
+.search-box-container .mic-container{
+
+    overflow: hidden;
+}
+
+.search-box-container .mic-container img{
+
+    margin-top: 2px;
+    margin-right: 8px;
+    width: 25px;
+    height: 20px;
+    object-fit: cover;
+
+}
+
+.main .recent-sites{
+
+    max-width: 600px;
+    display: flex;
+    margin-top: 16px;
+    gap: 30px;
+}
+
+.main .recent-sites .ball-recent-sites{
+
+    width: 60px;
+    height: 60px;
+    background-color: lightgray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .recent-sites .ball-recent-sites img{
+
+    width: 40px;
+    height: 40px;
+}
+
+.main .recent-sites .ball-recent-sites #youtube{
+
+    height: auto;
+}
+

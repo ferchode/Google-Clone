@@ -1,0 +1,75 @@
+*{
+
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    max-width: 1920px;
+}
+
+
+header{
+
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 12px;
+}
+
+.text-head{
+
+    margin-top: 16px;
+}
+.text-head a{
+
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+}
+
+.text-head a:hover{
+
+    text-decoration: underline;
+}
+
+.grid-logo{
+
+    padding: 12px;
+}
+
+.grid-logo a img{
+
+    width: 32px;
+    height: 32px;
+    
+}
+
+.person-photo{
+
+    padding: 12px;
+    margin-top: 12px;
+    margin-right: 12px;
+    border-radius: 50%;
+    background-color: lightgray;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.person-photo a img{
+
+    width: 25px;
+    height: 25px;
+    
+}
+
+
+
